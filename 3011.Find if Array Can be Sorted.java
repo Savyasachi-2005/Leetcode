@@ -23,7 +23,7 @@ class Solution {
             }
         }
 
-        // Check if the array is sorted in non-decreasing order
+        // Check if the array is sorted in non-decreasing order  
         for (int i = 1; i < nums.length; i++) {
             if (nums[i] < nums[i - 1]) {
                 return false;
