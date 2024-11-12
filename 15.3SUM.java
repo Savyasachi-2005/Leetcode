@@ -3,7 +3,7 @@ class Solution {
         // List to store the result as lists of integer triplets that sum up to zero
         List<List<Integer>> result = new ArrayList<>();
         
-        // Sort the array to make it easier to avoid duplicates and use the two-pointer approach
+        // Sort the array  to make it easier to avoid duplicates and use the two-pointer approach
         Arrays.sort(nums);
         
         // Loop through each number in the array, stopping two elements before the end
